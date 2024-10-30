@@ -5,9 +5,13 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import amazon from '../../Assets/amazon.jpg'
+import netflix from '../../Assets/netflix.jpg'
+import forum from '../../Assets/forum.jpg'
+import apple from '../../Assets/apple.jpg'
+import menu from '../../Assets/evangadiMenu.jpg'
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 
 function Projects() {
   return (
@@ -23,56 +27,56 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={amazon}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Full-Stack Amazon Clone"
+              description="A Full-Stack Amazon clone built with React and Node.js features a dynamic product catalog,user authentication and secure database integration via Firebase. Userscan browse, add items to a cart, and proceed through a streamlined checkout process. Firebase handles authentication, ensuring secure logins and real-time data management"
+              ghLink="https://github.com/BamanGirma/Amazon-clone"
+              demoLink="https://amazon-clone63.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={netflix}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Netflix Clone"
+              description="A Netflix clone built with React integrates The Movie Database API to display trending shows and movies. Users can browse genres, view detailed information, and play trailers, simulating a Netflix-like experience. The responsive design and seamless API integration create an immersive movie-browsing platform."
+              ghLink="https://github.com/BamanGirma/netflix"
+              demoLink="https://netflix-six-beta.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={forum}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Evagadi Forum"
+              description="The Evangadi Forum, developed with React, Node.js, and MySQL, serves as a Q&A platform similar to Stack Overflow. Users can post questions, provide answers, and engage in discussions on tech topics. With robust database management, user authentication, and a clean, responsive UI, it fosters a supportive learning community."
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={apple}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Apple Full-Stack"
+              description="A Full-Stack Apple clone built with React, Node.js, and Bootstrap replicates Apple’s sleek design, showcasing products with a responsive layout. Users can explore product pages and experience a refined UI, reflecting Apple’s minimalist style and functionality."
+              ghLink="https://github.com/BamanGirma/AppleFullStack"
+              demoLink="https://apple-full-stack-from-json-file.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={menu}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Evangadi Menu"
+              description="The Evangadi Food Menu, developed with React and Bootstrap, offers a user-friendly interface to explore a diverse range of dishes. Customers can view detailed descriptions, images, and prices, all presented in a responsive design that enhances the dining experience."
+              ghLink="https://github.com/BamanGirma/EvangadiMenu"
+              demoLink="https://evangadi-menu-one.vercel.app/"
             />
           </Col>
 
@@ -84,7 +88,7 @@ function Projects() {
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              demoLink="https://apple-full-stack-from-json-file.vercel.app/"
             />
           </Col>
         </Row>
