@@ -9,6 +9,7 @@ import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import { FcServices } from "react-icons/fc";
 import { GrServices } from "react-icons/gr";
+import { MdContactEmergency } from "react-icons/md";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -105,15 +106,18 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/BamanGirma/my_portfolio"
-                target="_blank"
-                className="fork-btn-inner"
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
+                <MdContactEmergency
+                  style={{ marginBottom: "2px" }}
+                  color="white"
+                />{" "}
+                Contact
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
