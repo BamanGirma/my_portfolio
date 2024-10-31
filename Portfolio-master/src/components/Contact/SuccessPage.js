@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Icon from 'react-feather';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import styled from 'styled-components';
 
 const MessageWrapper = styled.div`
