@@ -54,8 +54,8 @@ function Projects() {
               isBlog={false}
               title="Evagadi Forum"
               description="The Evangadi Forum, developed with React, Node.js, and MySQL, serves as a Q&A platform similar to Stack Overflow. Users can post questions, provide answers, and engage in discussions on tech topics. With robust database management, user authentication, and a clean, responsive UI, it fosters a supportive learning community."
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              // demoLink="https://editor.soumya-jit.tech/"
+              ghLink="https://github.com/BamanGirma/evangadi-forum-frontend-deploy-main"
+              // demoLink="https://evangadi-forum-frontend-deploy-main.vercel.app/"i
             />
           </Col>
 
