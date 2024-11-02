@@ -16,7 +16,7 @@ const PageWrapper = styled.div`
 const PageHeadingWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 90px;
+  margin-top: 100px;
 `;
 
 const FormContainer = styled.div`
