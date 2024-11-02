@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Amanuel Girma </span>
             from <span className="purple"> Addis Ababa, Ethiopia.</span>
             <br />
-            I am currently employed as a software developer at WHC.
+            I am currently employed as a software developer at WMC.
             <br />
             <br />
           </p>
