@@ -93,6 +93,7 @@ const SocialIconWrapper = styled.a`
   align-items: center;
   &:hover {
     background-color: #700c86;
+    box-shadow: 0 0 5px #87209e;
   }
 `;
 
