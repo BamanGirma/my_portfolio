@@ -394,6 +394,7 @@ button:focus {
   padding-left: 15px;
 }
 
+
 .icon-colour {
   color: #700c86 !important;
 }
@@ -437,6 +438,8 @@ button:focus {
   margin-bottom: 0.5em !important;
   padding: 0 !important;
 }
+
+
 
 .blockquote-footer {
   color: #a588c0 !important;
@@ -720,24 +723,4 @@ button:focus {
   }
 }
 
-.fork-btn {
-  font-size: 1.1em !important;
-  padding-top: 10px !important;
-}
 
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-}
-
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
-}
