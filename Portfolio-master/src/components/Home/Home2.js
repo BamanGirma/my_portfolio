@@ -4,10 +4,10 @@ import myImg1 from '../../Assets/my_photo.png'
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 function Home2() {
   return (
@@ -80,7 +80,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaSquareXTwitter />
                 </a>
               </li>
               <li className="social-icons">
