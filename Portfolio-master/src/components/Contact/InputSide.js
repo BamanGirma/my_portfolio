@@ -45,13 +45,20 @@ const SubMitButton = styled.input`
   bottom: 20px;
   right: 20px;
   padding: 10px;
-  background-color: rgb(8, 8, 63);
+  background-color: #a588c0;
   color: #fff;
   border: none;
   border-radius: 5px;
   padding: 12px 25px 12px 24px;
   cursor: pointer;
+
+  &:hover {
+    background-color: #700c86;
+    transform: scale(1.05);
+  }
 `;
+
+
 
 const LoadingButton = styled.button`
   position: absolute;
@@ -132,7 +139,7 @@ const InputSide = () => {
         />
       </InputWrapper>
       {buttonLoading ? (
-        <LoadingButton>Loading...</LoadingButton>
+        <LoadingButton>Sending...</LoadingButton>
       ) : (
         <SubMitButton type="submit" value="Send Message" />
       )}
